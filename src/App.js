@@ -1,22 +1,16 @@
 import logo from './logo.svg';
 import './App.css';
+import Tictactoe from './Tictactoe';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
+        <Tictactoe />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          メインサイトは<a href="https://shun-wordpress.com/reactjs/">こちら</a>
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
       </header>
     </div>
   );
